@@ -191,9 +191,10 @@ body {
 .inspiration-section {
   width: 1140px;
   height: 770px;
-  border: 2px solid red;
+
   margin: 0 auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .inspiration-section h2 {
@@ -217,4 +218,68 @@ body {
   width: 1076px;
   height: 550px;
   padding: 30px;
+}
+/* current target  */
+.current-target {
+  width: 1140px;
+  height: 560px;
+  margin: 0 auto;
+}
+.current-target h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.current-target {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.learn-objectives {
+  display: flex;
+  width: 1140px;
+  height: 400px;
+  /* border: 2px solid rgb(123, 255, 0); */
+}
+.learn {
+  width: 364px;
+  height: 360px;
+  border-radius: 16px;
+
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  padding: 40px;
+}
+.learn img {
+  width: 39px;
+  height: 45px;
+}
+#html-background {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+#css-background {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+#js-background {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.learn button {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
