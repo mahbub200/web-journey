@@ -42,7 +42,7 @@ body {
 }
 .banner p {
   color: rgb(13, 19, 33);
-
+  opacity: 0.7;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -83,6 +83,7 @@ body {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
 }
 .do-coding {
   width: 946px;
@@ -113,6 +114,7 @@ body {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
+  opacity: 0.7;
 }
 .left-side-content button {
   box-sizing: border-box;
@@ -166,6 +168,7 @@ body {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
+  opacity: 0.7;
 }
 .right-side-content button {
   box-sizing: border-box;
@@ -213,6 +216,7 @@ body {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
 }
 .inspiration-section iframe {
   width: 1076px;
@@ -251,7 +255,7 @@ body {
 }
 .learn {
   width: 364px;
-  height: 360px;
+  height: 300px;
   border-radius: 16px;
 
   margin-right: 10px;
@@ -275,11 +279,71 @@ body {
   background-color: rgba(255, 223, 0, 0.05);
 }
 .learn button {
-  color: red;
+  color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
+}
+
+.learn p {
+  opacity: 0.7;
+}
+/* support section starts here  */
+.support-section {
+  margin-top: 100px;
+  background-image: url("../assets/handshake.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  width: 1140px;
+  height: 214px;
+  border: 2px solid red;
+  margin: 0 auto;
+  padding: 64px 48px 64px 48px;
+}
+.support-section .support-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.support-section .support-text h2 {
+  color: rgb(255, 255, 255);
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.support-section .support-text p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.input-field input {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.input-field button {
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
 }
