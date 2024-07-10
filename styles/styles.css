@@ -291,6 +291,53 @@ body {
 .learn p {
   opacity: 0.7;
 }
+
+/* next target starts  */
+.next-target {
+  width: 1140px;
+  height: 871px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.next-target > h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.next-target > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.properties-next-target {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  padding: 40px;
+}
+.properties-next-target img {
+  margin-right: 50px;
+}
+.properties-next-target p {
+  opacity: 0.7;
+}
+.properties-next-target a button {
+  text-decoration-line: underline;
+  line-height: 19px;
+  border: none;
+  background-color: white;
+}
 /* support section starts here  */
 .support-section {
   margin-top: 100px;
